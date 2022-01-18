@@ -51,3 +51,30 @@ h1 {
 .download-button {
     margin: 5% 3% 5% 0;
 }
+
+/* Icons */
+.three-icon {
+    font-size: 350%;
+    color: #ef8172;
+    margin-bottom: 25px;
+}
+
+#features {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#features h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+.three-icon:hover {
+    color: #ff4c68;
+}
