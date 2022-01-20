@@ -4,7 +4,8 @@
 
 body {
     /* Changing font */
-    font-family: "Montserrat"
+    font-family: "Montserrat";
+    background-color: white;
 }
 
 h1 {
@@ -25,12 +26,20 @@ h2 {
 
 .container-fluid {
     padding: 3% 15%;
+    position: relative;
+    top: 0;
+    z-index: 0;
 }
 
 .iphone-img {
     /* tilting and reducing the size of the image */
     transform: rotate(25deg);
-    width: 60%;
+    width: 50%;
+    position: absolute;
+    right: 15%;
+    top: 1px;
+    z-index: 1;
+
 }
 
 /* Navigation Bar */
@@ -69,7 +78,11 @@ h2 {
 #features {
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding-top: 125px;
+    position: relative;
+    bottom: 100px;
 }
 
 #features h3 {
