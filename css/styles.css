@@ -1,6 +1,4 @@
-#title {
-    background-color: #ff4c68;
-}
+/* HTML Elements*/
 
 body {
     /* Changing font */
@@ -8,8 +6,20 @@ body {
     background-color: white;
 }
 
-h1 {
-    font-family: "Montserrat-Black", sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+h2 {
+    
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Headings */
+
+.big-heading {
     font-size: 4rem;
     line-height: 1.5;
     /* Changing color */
@@ -17,11 +27,8 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
-    font-family: "Montserrat-Bold";
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.5;
+#title {
+    background-color: #ff4c68;
 }
 
 .container-fluid {
